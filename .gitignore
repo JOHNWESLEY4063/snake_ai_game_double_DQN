@@ -1,0 +1,79 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/                  # Your main virtual environment
+lib/
+lib64/
+local/
+share/
+include/
+bin/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.nox/
+.ipynb_checkpoints/    # Jupyter notebooks checkpoints
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editors / OS generated files
+.idea/                          # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.vscode/                        # VS Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store                       # macOS system files
+Thumbs.db                       # Windows thumbnail cache
+ehthumbs.db
+.project                        # Eclipse project files
+.classpath
+.settings/
+
+# Log files and run artifacts
+*.log
+*.log.*
+logs/
+tmp/
+temp/
+
+# Directories for trained models and TensorBoard logs (at the root)
+model_weights/                  # Contains trained models and checkpoints
+runs/                           # TensorBoard log directories (from train.py)
+terminal/model_weights/         # If terminal/train.py saves here too
+terminal/runs/                  # If terminal/train.py saves here too
+GUI/model_weights/              # If GUI/train.py saves here too
+GUI/runs/                       # If GUI/train.py saves here too
+
+# Specific files to ignore within terminal/ and GUI/ (if any remain that aren't caught by general rules)
+# Example: If a 'temp' folder is created inside terminal/
+terminal/temp/
+GUI/temp/
+
+# Environment variables files
+.env
+.flaskenv
+
+# Other generated files
+*.out
+*.exe
+*.dll
+*.so
+*.obj
+*.o
+
+# Compiled files
+*.class # Java
+*.obj # C/C++
+*.exe # Windows executables
+*.dll # Windows dynamic link libraries
+*.lib # Windows libraries
